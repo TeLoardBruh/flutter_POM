@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+// here import the related Page in that all
+// import 'package:pom_for_use/pages/firstpage.dart';
+// import 'package:pom_for_use/pages/secondpage.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -73,6 +77,7 @@ class _MyHomePageState extends State<MyHomePage>
       body: new TabBarView(
         controller: controller,
         children: <Widget>[
+          // after import called it here
           // new FirstPage(),
           // new SecondPage(),
         ],
